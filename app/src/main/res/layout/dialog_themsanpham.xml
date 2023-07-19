@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten "
+        android:textSize="16dp"
+        android:textColor="#DA2121"
+        />
+    <EditText
+        android:hint="Nhap ten"
+        android:id="@+id/edThemTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gia"
+        android:textSize="16dp"
+        android:textColor="#DA2121"
+        />
+    <EditText
+        android:hint="Nhap gia"
+        android:id="@+id/edThemGiaSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="So luong"
+        android:textSize="16dp"
+        android:textColor="#DA2121"
+        />
+    <EditText
+        android:hint="Nhap loai "
+        android:id="@+id/edThemSoLuongSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loai"
+        android:textSize="16dp"
+        android:textColor="#DA2121"
+        />
+    <EditText
+        android:hint="Nhap loai"
+        android:id="@+id/edThemLoaiSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Img"
+        android:textSize="16dp"
+        android:textColor="#DA2121"
+        />
+    <EditText
+        android:text="https://sieuthihoaba.com.vn/wp-content/uploads/2020/08/nuoc-ngot-7-up-vi-chanh-330ml-201905301056157261-768x576.jpg"
+        android:hint="Nhap link Img"
+        android:id="@+id/edThemImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
