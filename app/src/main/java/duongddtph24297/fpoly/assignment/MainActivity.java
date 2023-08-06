@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(linearLayoutManager);
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://192.168.20.109/thaiduong_ph24297/read.php";
+        String url ="http://192.168.0.105/thaiduong_ph24297/read.php";
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void AddProduct(String name,int price,String img,int soluong,String loai){
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://192.168.20.109/thaiduong_ph24297/create.php";
+        String url ="http://192.168.0.105/thaiduong_ph24297/create.php";
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {

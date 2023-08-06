@@ -86,7 +86,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
     }
     private void Delete(int id){
         RequestQueue queue = Volley.newRequestQueue(context);
-        String url ="http://192.168.20.109/thaiduong_ph24297/delete.php";
+        String url ="http://192.168.0.105/thaiduong_ph24297/delete.php";
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
